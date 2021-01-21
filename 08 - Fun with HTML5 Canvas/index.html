@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Canvas</title>
+    <link rel="stylesheet" type="text/css" href="./src/style.css"/>
+</head>
+<body>
+    <div class="controls">
+    <div>
+        <label for="base">Line Color</label>
+        <input id="base" type="color" name="base" value="#BADA55">
+    </div>
+    <div>
+        <label for="spacing">Line Width</label>
+        <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+    </div>
+    <div>
+        <button id="wacky" value="false" type="button">WACKY LINES</button>
+    </div>
+    <div>
+        <button id="rainbow" value="false" type="button">RAINBOW COLORS</button>
+    </div>
+    </div>
+    <canvas id="draw" width="800" height="800"></canvas>
+    <script src="./src/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  background-image: url("../drawing-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  color: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-left: 10;
+}
+
+input {
+  margin: 10 15 10 5;
+}
+
+button {
+  margin: 10 15 10 5;
+}
+
+#draw {
+  background-color: aliceblue;
+}
